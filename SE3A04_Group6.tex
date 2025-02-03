@@ -361,6 +361,52 @@ deer, squirrel, bird), but is unable to tell the different nuances between speci
 	{\bf Global Scenario:}\\
 	\textcolor{red}{Insert Scenario Here}
 \end{enumerate}
+\begin{enumerate}[{\bf BE5.}]
+    \item Editing Account
+    \begin{description}
+        \item[Description:] This business event allows users to securely edit their account information.
+    \end{description}
+    
+    \begin{enumerate}[{\bf VP1.}]
+        \item User \\  
+        \textbf{Scenario:} The user navigates to the "Edit Account" page, updates their personal details (e.g., name, email, password), and saves the changes.  
+        The system validates the input before updating the database. If validation succeeds, the changes are saved, and the user receives a confirmation message.  
+        If validation fails, the system displays an error and prompts for corrections.
+    \end{enumerate}
+    
+    {\bf Global Scenario:}\\
+    \begin{itemize}
+        \item User accesses the "Edit Account" page.
+        \item User modifies account details.
+        \item System validates the input.
+        \item If validation succeeds, the system updates the database and confirms the changes to the user.
+        \item If validation fails, the system displays an error and prompts for corrections.
+    \end{itemize}
+    
+    \begin{enumerate}[{\bf VP2.}]
+        \item Ads Team \\  
+        \textbf{Scenario:} N/A
+        \item Marketing Team \\  
+        \textbf{Scenario:} N/A
+        \item Accounting Team \\  
+        \textbf{Scenario:} If account edits involve billing details, the system communicates changes to the accounting module.
+    \end{enumerate}
+    
+    {\bf Global Scenario:}\\
+    \begin{itemize}
+        \item User updates billing information.
+        \item System validates the changes.
+        \item The accounting module is updated to reflect new details.
+        \item A confirmation is sent to the user.
+    \end{itemize}
+
+    \begin{enumerate}[{\bf VP5.}]
+        \item Environment Canada \\  
+        \textbf{Scenario:} N/A
+        \item National Parks / Hunting Organization (Ontario Federation of Anglers and Hunters) \\  
+        \textbf{Scenario:} N/A
+    \end{enumerate}
+\end{enumerate}
 
 %	Below, we organize by Business Event.
 %	\begin{enumerate}[{BE}1.]
